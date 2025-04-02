@@ -24,7 +24,7 @@ def main():
 
     sorted_counts = sorted(char_counts)
     print("============ BOOKBOT ============")
-    print("Analyzing book found at {filepath}...")
+    print(f"Analyzing book found at {filepath}...")
     print("----------- Word Count ----------")
     print(f"Found {words} total words")
     print("--------- Character Count -------")
